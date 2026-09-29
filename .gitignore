@@ -1,0 +1,9 @@
+bin/
+obj/
+node_modules/
+.next/
+.env.local
+.dotnet/
+.DS_Store
+.codex-tmp/
+tmp/
