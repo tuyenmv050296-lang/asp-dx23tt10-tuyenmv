@@ -1,0 +1,89 @@
+@backend_HostAddress = http://localhost:5090
+
+GET {{backend_HostAddress}}/api/health
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/navigation
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/pages
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/pages/lead-center
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/dashboard
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/leads
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/pipeline
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/tasks
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/transactions
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/tai-khoan-phan-quyen
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/nhan-su-moi-gioi
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/lead-center
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/khach-hang
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/hoat-dong
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/co-hoi-pipeline
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/xem-nha-thuong-luong
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/giao-dich
+Accept: application/json
+
+###
+
+GET {{backend_HostAddress}}/api/crm/workspaces/bao-cao
+Accept: application/json
